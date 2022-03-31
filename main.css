@@ -1,0 +1,346 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.user__content{
+    text-align: center;
+    margin-top: 16px;
+    animation: fadeIn ease 1s;
+    transition: transform 0.5s;
+}
+.icon-sun{
+    margin-top: 220px;
+    animation: fadeIn ease 1s;
+    size: 50px;
+}
+
+.user-icon-link{
+    text-decoration: none;
+    color: black;
+    margin: 0 12px;
+}
+.user__content:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    -webkit-transition: all 1s ease;
+    transition: transform .15s cubic-bezier(.17,.67,.29,2.71) 0s;
+}
+html {
+	height: 100%;
+	/* max-height: 600px; */
+	width: 1000px;
+	background-color: hsla(200,40%,30%,.4);
+	background-image:		
+		url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
+		url('https://78.media.tumblr.com/66445d34fe560351d474af69ef3f2fb0/tumblr_p7n908E1Jb1uy4lhuo1_1280.png'),
+		url('https://78.media.tumblr.com/8cd0a12b7d9d5ba2c7d26f42c25de99f/tumblr_p7n8kqHMuD1uy4lhuo2_1280.png'),
+		url('https://78.media.tumblr.com/5ecb41b654f4e8878f59445b948ede50/tumblr_p7n8on19cV1uy4lhuo1_1280.png'),
+		url('https://78.media.tumblr.com/28bd9a2522fbf8981d680317ccbf4282/tumblr_p7n8kqHMuD1uy4lhuo3_1280.png');
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 100%,
+		0 50%,
+		0 100%,
+		0 0;
+	background-size: 
+		2500px,
+		800px,
+		500px 200px,
+		1000px,
+		400px 260px;
+	animation: 50s para infinite linear;
+	}
+
+.box{
+    background-color: darkseagreen;
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto;
+    border-radius: 15px;
+    animation: fadeIn ease 1s;
+}
+.box:hover{
+    transition: all 1s;
+    transform: scale(1.05);
+    -webkit-transition: all 1s ease;
+    transition: transform .15s cubic-bezier(.17,.67,.29,2.71) 0s;
+}
+
+
+.pic img{
+    width: 150px;
+    height: 150px;
+    left: 0%;
+    right: 0%;
+    top: 20px;
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+
+    animation: fadeIn ease 1s;
+    transition: transform 0.5s;
+	border: 6px solid whitesmoke;
+	margin-bottom: 1rem;
+	
+}
+
+.pic:hover img{
+    transition: all 1s;
+    transform: scale(1.07);
+    -webkit-transition: all 1s ease;
+    transition: transform .15s cubic-bezier(.17,.67,.29,2.71) 0s;
+    
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.user-icon-link{
+    height: 34px;
+    width: 34px;
+    position: position;
+    transition: filter 0.1s ease-in-out; 
+    flex-direction: column;
+    filter: grayscale();
+}
+.user-icon-link:hover{
+    filter: none;
+    cursor: pointer;
+    transition: filter 0.3s ease-in-out;
+}
+.iconGithub{
+    height: 50px;
+    width: 50px;
+}
+.name{
+    font-size: 20px;
+    font-family: monospace;
+    color:snow;
+    position: absolute;
+    top: 180px;
+    left: 0%;
+    right: 0%;
+    margin: auto;
+    text-align: center;
+    animation: fadeIn ease 1s;
+    transition: transform 0.5s;
+
+}
+.name:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    -webkit-transition: all 1s ease;
+    transition: transform 0.15s cubic-bezier(.17,.67,.29,2.71) 0s;
+}
+.box .info-facebook{
+    background-color: rgba(192,192,192,1);
+    height: 50px;
+    width: 330px;
+    z-index: 1;
+
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    margin: auto;
+    border-radius: 15px;
+
+    animation: up ease 2s;
+    transition: transform 0.5s;
+}
+.box .info-instagram{
+    background-color: rgba(192,192,192,1);
+    height: 50px;
+    width: 330px;
+    z-index: 1;
+
+    top: 0%;
+    bottom: -20%;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    margin: auto;
+    border-radius: 15px;
+
+    animation: up ease 2s;
+    transition: transform 0.5s;
+}
+
+.box .info-github{
+    background-color: rgba(192,192,192,1);
+    height: 50px;
+    width: 330px;
+    z-index: 1;
+
+    top: 0%;
+    bottom: -40%;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    margin: auto;
+    border-radius: 15px;
+
+    animation: up ease 2s;
+    transition: transform 0.5s;
+}
+.box .info-zalo{
+    background-color: rgba(192,192,192,1);
+    height: 50px;
+    width: 330px;
+    z-index: 1;
+
+    top: 0%;
+    bottom: -60%;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    margin: auto;
+    border-radius: 15px;
+
+    animation: up ease 2s;
+    transition: transform 0.5s;
+}
+.info-facebook:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+   
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+    transition: transform .15s cubic-bezier(.17,.67,.29,2.71) 0s;
+}
+.info-instagram:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+    
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+    transition: transform .15s cubic-bezier(.17,.67,.29,2.71) 0s;
+}
+
+.info-github:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+    transition: transform .15s cubic-bezier(.17,.67,.29,2.71) 0s;
+}
+
+.info-zalo:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+    -webkit-transition: all 1s ease;
+
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.5);
+    transition: transform .15s cubic-bezier(.17,.67,.29,2.71) 0s;
+}
+
+@keyframes up {
+    0% {
+        transform: translateY(100px);
+        
+    }
+    100% {
+        transform: translateY(0px);
+    }
+    
+}
+@keyframes fadeIn {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  @keyframes para {
+	100% {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
+	}
+
+    @media (max-width:  63.9375em) {
+        .box{
+            top: 0%;
+            bottom: 0%;
+            left: 0%;
+            right: 0%;
+            position: absolute;
+            margin: auto;
+            width: 300px;
+            height: 500px;
+        }
+        
+        .name{
+            top: 154px;
+        }
+        .user-icon-link{
+            top: -40px;
+            size: 20px;
+            margin: auto;
+            position: relative;
+        }
+        .pic img{
+            height: 130px;
+            width: 130px;
+        }
+        .box .info-facebook{
+            top: 40px;
+            left: 0%;
+            width: 240px;
+            height: 40px;
+            margin: auto;
+            position: absolute;
+        }
+        .box .info-instagram{
+            top: 41px;
+            left: 0%;
+            width: 240px;
+            height: 40px;
+            margin: auto;
+            position: absolute;
+        }
+        .box .info-github{
+            top: 42px;
+            left: 0%;
+            width: 240px;
+            height: 40px;
+            margin: auto;
+            position: absolute;
+        }
+        .box .info-zalo{
+            top: 43px;
+            left: 0%;
+            width: 240px;
+            height: 40px;
+            margin: auto;
+            position: absolute;
+        }
+
+        html{
+            height: 100%;
+            width: 100%;
+    }
+}
+      
+    @media (min-width: 46.25em) and (max-width:  63.9375em) {
+       
+    }
+    /* mobile */
+    @media only screen and (max-width: 46.1875em) {
+        
+
+    }
